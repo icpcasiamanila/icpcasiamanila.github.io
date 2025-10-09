@@ -1,0 +1,27 @@
+address {
+  margin-bottom: 1.44em;
+}
+
+address span {
+  display: block;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table th,
+table td {
+  padding: 1em;
+  border: solid 1px black;
+}
+
+table caption p {
+  margin-bottom: 0;
+  text-align: left;
+}
+
+table caption p:not(:first-child) {
+  margin-top: 0;
+}

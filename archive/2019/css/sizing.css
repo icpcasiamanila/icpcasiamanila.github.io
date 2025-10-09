@@ -1,0 +1,43 @@
+body > main section:nth-child(2) {
+  margin-top: 1.728rem;
+}
+
+#shirt-icon {
+  width: 8ex;
+}
+
+.size-guide {
+  border-collapse: collapse;
+  font-size: 1.44rem;
+}
+
+.size-guide th,
+.size-guide td {
+  padding: 0.54em;
+}
+
+.size-guide thead th,
+.size-guide tbody td {
+  border-bottom: solid 2px var(--icpc-yellow);
+}
+
+.size-guide thead th:not(:last-child),
+.size-guide tbody td:not(:last-child) {
+  border-right: solid 1px var(--icpc-yellow);
+}
+
+#size-guide-wide { display: table; }
+#size-guide-tall { display: none; }
+
+@media(orientation: portrait) {
+  #size-guide-wide { display: none; }
+  #size-guide-tall { display: table; margin: 0 auto; }
+}
+
+#size-guide-tall tbody tr:hover {
+  background-color: var(--yellow-accent-2);
+}
+
+#size-guide-wide .highlight {
+  background-color: var(--yellow-accent-2);
+}

@@ -1,0 +1,944 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<base href="http://penoy.admu.edu.ph/~acmicpc/archive/2016" />
+
+  <meta charset="UTF-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>
+            2016 ACM ICPC Asia-Manila Regional Contest</title>
+  <meta name="description" content="The official website for the 2016 ACM-ICPC Asia-Manila Regionals to be held on December 14-16, 2016 at the Ateneo de Manila University.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Facebook meta tags -->
+  <meta property="og:title" content="2016 ACM-ICPC Asia-Manila Regionals">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="http://penoy.admu.edu.ph/~acmicpc/archive/2016/">
+  <meta property="og:description" content="Check out the official website for the 2016 ACM-ICPC Asia-Manila Regionals to be held on December 14-16, 2016 at the Ateneo de Manila University.">
+  <meta property="og:image" content="http://penoy.admu.edu.ph/~acmicpc/archive/2016/wp-content/themes/icpc-v2.0/img/icpc-logo.png">
+
+  <!-- Twitter meta tags -->
+  <meta property="twitter:card" content="summary">
+  <meta property="twitter:url" content="http://penoy.admu.edu.ph/~acmicpc/archive/2016/">
+  <meta property="twitter:title" content="2016 ACM-ICPC Asia-Manila Regionals">
+  <meta property="twitter:description" content="Check out the official website for the 2016 ACM-ICPC Asia-Manila Regionals to be held on December 14-16, 2016 at the Ateneo de Manila University.">
+  <meta property="twitter:image" content="http://penoy.admu.edu.ph/~acmicpc/archive/2016/wp-content/themes/icpc-v2.0/img/icpc-logo.png">
+
+  <!-- FontAwesome -->
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css"> -->
+
+  <!-- Own Things -->
+  <link rel="stylesheet" type="text/css" href="http://penoy.admu.edu.ph/~acmicpc/archive/2016/wp-content/themes/icpc-v2.0/style.css">
+  <link rel="icon" type="image/x-icon" href="http://penoy.admu.edu.ph/~acmicpc/archive/2016/wp-content/themes/icpc-v2.0/img/favicon.ico">
+
+  <title>2016 ACM ICPC Asia-Manila Regional Contest &#8211; The official website for the 2016 ACM ICPC Asia-Manila Regional Contest</title>
+
+
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/penoy.admu.edu.ph\/~acmicpc\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.4.2"}};
+			!function(a,b,c){function d(a){var c,d=b.createElement("canvas"),e=d.getContext&&d.getContext("2d"),f=String.fromCharCode;return e&&e.fillText?(e.textBaseline="top",e.font="600 32px Arial","flag"===a?(e.fillText(f(55356,56806,55356,56826),0,0),d.toDataURL().length>3e3):"diversity"===a?(e.fillText(f(55356,57221),0,0),c=e.getImageData(16,16,1,1).data.toString(),e.fillText(f(55356,57221,55356,57343),0,0),c!==e.getImageData(16,16,1,1).data.toString()):("simple"===a?e.fillText(f(55357,56835),0,0):e.fillText(f(55356,57135),0,0),0!==e.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag"),unicode8:d("unicode8"),diversity:d("diversity")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag&&c.supports.unicode8&&c.supports.diversity||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='countdown-style-css'  href='http://penoy.admu.edu.ph/~acmicpc/archive/2016/wp-content/plugins/wordpress-countdown-widget/css/jquery.countdown.css?ver=1.1' type='text/css' media='' />
+<link rel='stylesheet' id='jquery-smooth-scroll-css'  href='http://penoy.admu.edu.ph/~acmicpc/archive/2016/wp-content/plugins/jquery-smooth-scroll/css/jss-style.css?ver=4.4.2' type='text/css' media='all' />
+<script type='text/javascript' src='http://penoy.admu.edu.ph/~acmicpc/archive/2016/wp-includes/js/jquery/jquery.js?ver=1.11.3'></script>
+<script type='text/javascript' src='http://penoy.admu.edu.ph/~acmicpc/archive/2016/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='http://penoy.admu.edu.ph/~acmicpc/archive/2016/wp-content/plugins/wordpress-countdown-widget/js/jquery.countdown.min.js?ver=1.0'></script>
+<link rel='https://api.w.org/' href='http://penoy.admu.edu.ph/~acmicpc/archive/2016/wp-json/' />
+
+ 
+
+</head>
+<body class="home blog">
+  <!--[if lt IE 8]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+  <![endif]-->
+
+  <header>
+    <div class="brand">
+      <a class="logo" href="http://penoy.admu.edu.ph/~acmicpc/archive/2016/" title="2016 ACM ICPC Asia-Manila Regional Contest"><img id="icpc" src="http://penoy.admu.edu.ph/~acmicpc/archive/2016/wp-content/themes/icpc-v2.0/img/icpc-logo.png" alt=""></a>
+      <a class="logo" href="http://www.ibm.com/" title="IBM: Event Sponsor"><img id="ibm" src="http://penoy.admu.edu.ph/~acmicpc/archive/2016/wp-content/themes/icpc-v2.0/img/ibm-logo.jpg" alt=""></a>
+    </div>
+
+       <label for="show-menu" class="show-menu"><i class="fa fa-bars"></i></label>
+    <input type="checkbox" id="show-menu" role="button">
+    <nav>
+      <ul id="menu-anchors-links" class="primary-menu"><li id="menu-item-279" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-279"><a href="http://penoy.admu.edu.ph/~acmicpc/archive/2016/#contest-rules">Contest Rules</a></li>
+<li id="menu-item-280" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-280"><a href="http://penoy.admu.edu.ph/~acmicpc/archive/2016/#prizes">Prizes</a></li>
+<li id="menu-item-277" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-277"><a href="http://penoy.admu.edu.ph/~acmicpc/archive/2016/#location">Location</a></li>
+<li id="menu-item-276" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-276"><a href="http://penoy.admu.edu.ph/~acmicpc/archive/2016/#accommodations">Accommodations</a></li>
+<li id="menu-item-342" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-342"><a href="http://penoy.admu.edu.ph/~acmicpc/archive/2016/#about">About the Regionals</a></li>
+<li id="menu-item-278" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-278"><a href="http://penoy.admu.edu.ph/~acmicpc/archive/2016/#sponsors">Sponsors</a></li>
+<li id="menu-item-275" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-275"><a href="http://penoy.admu.edu.ph/~acmicpc/archive/2016/#downloads">Downloads</a></li>
+<li id="menu-item-437" class="special menu-item menu-item-type-custom menu-item-object-custom menu-item-437"><a href="http://penoy.admu.edu.ph/~acmicpc/archive/2016/final-scoreboard">Final Scoreboard</a></li>
+</ul>    </nav>
+      </header>
+<main>
+  <!--[if lt IE 8]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+  <![endif]-->
+  <div class="above-fold">
+    <div class="info-text">
+      <h2 class="title">2016 ACM ICPC Asia-Manila Regionals Contest</h2>
+      <p class="description">Winners will qualify for the<br><a href="https://icpc.baylor.edu/regionals/finder/world-finals-2017" id="winners-link">2017 World Finals in South Dakota, USA</a>!</p>
+      <div class="details">
+        <div class="date">
+          <div class="icon">
+            <i class="fa fa-calendar"></i>
+          </div>
+          <div class="info">
+            December 14-16, 2016
+          </div>
+        </div>
+        <div class="location">
+          <div class="icon">
+            <i class="fa fa-map-marker"></i>
+          </div>
+          <div class="info">
+            Ateneo de Manila University
+          </div>
+        </div>
+      </div>
+              <div class="widget-area" role="complementary">
+          <div>			<div class="textwidget"><div align="center">
+<h2>Champion</h2>
+Jbros from National Taiwan University with Mr. Pu-Jen Cheng as Best Coach
+
+<h3>Runner Up</h3>
+G00dMeow from National Taiwan University
+
+<h3>Second Runner Up</h3>
+Quiwarriors 1 from University of the Philippines, Diliman
+
+<h4>Best Local Team</h4>
+Fuchsia Moth with Best Local Coach Vernon Gutierrez</div></div>
+		</div>        </div>
+      
+      <div class="cta">
+        <a href="#downloads" alt="Go to the List of Downloads" class="button">Downloads</a>
+        <a href="http://penoy.admu.edu.ph/~acmicpc/archive/2016/final-scoreboard" alt="View final scoreboard for ICPC Manila 2016" class="button">View Final Scoreboard</a>
+      </div>
+    </div>
+    <object id="brand-svg" type="image/svg+xml" data="http://penoy.admu.edu.ph/~acmicpc/archive/2016/wp-content/themes/icpc-v2.0/img/brand.svg">Your browser does not support SVGs.</object>
+  </div>
+
+  <div class="below-fold">
+              
+                  <section id="downloads">
+            <div class="section-header">
+              <h3>Downloads</h3>
+              <p class="description">
+                              </p>
+            </div>
+            <div class="section-body">
+                              <div class="item">
+                  <h4><strong>Downloads</strong></h4>
+<ul>
+<li><a href="http://penoy.admu.edu.ph/~acmicpc/archive/2016/wp-content/uploads/ACM-ICPC-Asia-Manila-Booklet-v5.pdf" target="_blank">PDF version of Booklet (Souvenir Program)</a></li>
+<li><a href="http://penoy.admu.edu.ph/~acmicpc/archive/2016/wp-content/uploads/ProblemSolution.zip" target="_blank">Problem Set and Solutions</a></li>
+</ul>
+                </div>
+                          </div>        
+          </section>
+        
+          
+              
+                  <section id="how-to-register">
+            <div class="section-header">
+              <h3>How to Register</h3>
+              <p class="description">
+                              </p>
+            </div>
+            <div class="section-body">
+                              <div class="item">
+                  <h2>Registration</h2>
+<ol>
+<li>Register your team on the <a href="https://icpc.baylor.edu/regionals/finder/asia-manila-2016" target="_blank">ACM ICPC web site</a>. More details on team registration may be found <a href="https://icpc.baylor.edu/regionals/coach-instructions" target="_blank">here</a>.</li>
+<li>Inform the local organizer by filling up <a href="http://penoy.admu.edu.ph/~acmicpc/archive/2016/register/">this form</a> and pay the registration fee.</li>
+<li>You will receive a confirmation regarding your registration through your <a href="https://icpc.baylor.edu/regionals/finder/asia-manila-2016" target="_blank">ACM ICPC account</a>.</li>
+</ol>
+<h3>Regular Registration</h3>
+<p>Regular Registration will be from <strong>October </strong><strong>1</strong> to <strong>November </strong><strong>30, 2016</strong>. The registration fee is as follows:</p>
+<ul>
+<li>For foreign teams: <strong>USD 150</strong>
+<ul>
+<li>Each extra person*: <strong>USD 30</strong></li>
+</ul>
+</li>
+<li>For local teams: <strong>PHP 6000</strong>
+<ul>
+<li>Each extra person*: <strong>PHP 1250</strong></li>
+</ul>
+</li>
+</ul>
+<p>Team registration covers three (3) contestants and one (1) coach. The registration fee includes:</p>
+<ul>
+<ul>
+<li>T-shirt</li>
+<li>contest materials</li>
+<li>Meals
+<ul>
+<li>First day: snacks</li>
+<li>Second day: packed breakfast, packed lunch, dinner</li>
+</ul>
+</li>
+</ul>
+</ul>
+<p>The registration fee does not include <a href="http://penoy.admu.edu.ph/~acmicpc/archive/2016/hotel-accomodations/" target="_blank">hotel, transportation</a> and <a href="http://penoy.admu.edu.ph/~acmicpc/archive/2016/excursion-day-details/" target="_blank">optional tour</a> on the third day.</p>
+<p><em>* Extra persons may include observers, guests, parents, or friends.</em></p>
+<p>&nbsp;</p>
+                </div>
+                              <div class="item">
+                  <h2>Registration Requirements and Rules</h2>
+<p>Each team consists of 3 student contestants. One coach can accompany the team.</p>
+<p>Each university or college in Asia can organize teams to participate in the Regional contests at any Asia site. However, a contestant can participate in, at most, two (2) Asian contest sites during a contest year. A contestant may not compete in Asia Regional Contests for more than five (5) years. A contestant may not compete in World Finals for more than two (2) years. A team may participate in the Asia Regional Contest, bypassing the School, Provincial, Invitational, and National levels.</p>
+<ol>
+<li>A student must be willing and able to compete in the World Finals.</li>
+<li>A student must be enrolled in a degree program at the sponsoring institution with at least a half-time load. This rule is not to be construed as disqualifying co-op students, exchange students, students serving internships, or extramural students.</li>
+<li>A student may compete for only one institution during a contest year.</li>
+<li>A student who has competed in two World Finals is NOT eligible to compete.</li>
+<li>A student has competed in five Regional Contests is NOT eligible to compete.</li>
+</ol>
+<p>If a team has registered and does not cancel their registration at least ten (10) days before the contest date, and do not show up during the contest, the team&#8217;s contestants will be disqualified for all other contest sites in the same contest year. Cancellation of registration does not qualify for any refund.</p>
+<p>The team members for the team advancing to the World Finals must be identical to the members participated in the Asia On-Site Regional Contest. No substitution or reserves will be allowed in the World Finals. Any alteration to the team will disqualify the team in the World Finals. However, the Asia Regional Contest may allow a reserve team member registration and may allow the substitution of the team member in the Asia Regional Contest provided that the team composition change is entered in the ICPC registration system web site before the Regional On-site Contest. Any change to the team after that regional contest is not allowed.</p>
+                </div>
+                              <div class="item">
+                  <h2>Period of Eligibility</h2>
+<ol>
+<li>A student who meets the Basic Requirements and FIRST began post-secondary studies in 2011 or later is eligible to compete.</li>
+<li>A student who meets the Basic Requirements and was born in 1993 or later is eligible to compete.</li>
+</ol>
+<p>For the complete list of the Regional Rules, you may visit the <a href="https://icpc.baylor.edu/regionals/rules#HBasicRequirements" target="_blank">ACM-ICPC Regional Rules</a> website. For Asia ACM-ICPC rules, visit the <a href="http://blog.sina.com.cn/s/blog_b946da100102vylk.html">C.J Hwang web site</a>.</p>
+                </div>
+                              <div class="item">
+                  <h3>For Payment in US Dollars</h3>
+<p>If you wish to <strong>pay in US Dollars</strong>, you may follow the instructions listed below:</p>
+<ol>
+<li>Go to the nearest / most convenient bank in your area.</li>
+<li>Kindly deposit your payment to this account:<br />
+<blockquote><p><strong>Bank of the Philippine Islands [USD]<br />
+</strong><em>Account Name:</em> Ateneo de Manila University<br />
+<em>Address:</em> Katipunan Ave., Loyola Heights, Quezon City<br />
+<em>Bank Account No.:</em> 3084-0002-04<br />
+<em>Bank Name:</em> Bank of the Philippine Islands<br />
+<em>Bank Address:</em> Katipunan Ave., cor J. Escaler St., Loyola Heights, Quezon City<br />
+<em>SWIFT Code:</em> BOPIPHMM</p></blockquote>
+<p>NOTE: Slips must be accomplished in duplicate copies.</p>
+<ol>
+<li>1st copy – Bank copy</li>
+<li>2nd copy – Client’s copy</li>
+</ol>
+</li>
+<li>Present payment slip to the bank tellers together with cash/check.</li>
+<li>Once validated, the bank teller will give the <em>Ateneo de Manila University</em> client/client representative a validated copy.</li>
+<li>Before leaving, check &amp; verify the copy received (payment slip serves as proof of payment):
+<ol>
+<li>if validated, and</li>
+<li>if the copy was the one accomplished &amp; presented to the bank teller</li>
+</ol>
+</li>
+<li>As soon as the payment is made, we will receive it in <strong>2-3 days</strong>. Kindly put your name in the details so that the registration team can easily trace your payment. We also highly encourage you to pay for the bank charges for us to receive the exact payment.</li>
+</ol>
+                </div>
+                              <div class="item">
+                  <h3>For Payment in Philippine Peso</h3>
+<p>If you wish to <strong>pay in Philippine Peso</strong>, you may <a href="http://penoy.admu.edu.ph/~acmicpc/archive/2016/wp-content/uploads/ACM-ICPC_AsiaManila_Regionals-PaymentProcedure.pdf" target="_blank" rel="">download the PDF</a> or follow the instructions listed below:</p>
+<p><strong>BILLS PAYMENT PROCEDURE FOR ATENEO DE MANILA UNIVERSITY<br />
+</strong><strong>OVER THE COUNTER PAYMENTS</strong></p>
+<ol>
+<li>Go to the nearest / most convenient <strong>Metrobank Trust Co. (MBTC) branch</strong>.</li>
+<li>Fill out a <strong>Bills Payment Slip</strong> with the following required details:<br />
+<blockquote><p><strong>Company Name:</strong> Ateneo de Manila University<br />
+<strong>Subscriber Name:</strong> <em>Participant&#8217;s complete name<br />
+</em><strong>Reference:</strong> Registration fee for 2016 Asia-Manila ACM ICPC Regional Programming Contest<br />
+<strong>Center Code/Subscriber Number:</strong> 225<br />
+<strong>Mode of Payment:</strong> Check / Cash / Debit</p></blockquote>
+<p>NOTE: Slips must be accomplished in duplicate copies.</p>
+<ol>
+<li>1st copy – Bank copy</li>
+<li>2nd copy – Client’s copy</li>
+</ol>
+</li>
+<li>Present payment slip to an MBTC teller together with cash/check.</li>
+<li>Once validated, the MBTC teller will give the <em>Ateneo de Manila University</em> client/client representative a validated copy.</li>
+<li>Before leaving, check &amp; verify the copy received (payment slip serves as proof of payment):
+<ol>
+<li>if validated, and</li>
+<li>if the copy was the one accomplished &amp; presented to the bank teller</li>
+</ol>
+</li>
+</ol>
+<p>Kindly fax or scan and email the validated copy of the payment slip to</p>
+<blockquote><p><strong>Department of Information Systems and Computer Science</strong><br />
+Ateneo de Manila University<br />
+Fax: +63 (2) 426 6071<br />
+Email: <a href="mailto:discs@ateneo.edu" target="_blank">discs@ateneo.edu</a><br />
+CC: <a href="mailto:kteknomo@ateneo.edu" target="_blank">kteknomo@ateneo.edu</a></p></blockquote>
+<p>Please indicate your name and <strong>2016 Asia Manila ACM ICPC Regional Programming Contest Payment</strong> as your subject. You will be issued a receipt during on-site registration.</p>
+<p>No refund is available for cancellation of registration for whatever reason.</p>
+                </div>
+                          </div>        
+          </section>
+        
+          
+              
+                  <section id="contest-rules">
+            <div class="section-header">
+              <h3>Contest Rules</h3>
+              <p class="description">
+                              </p>
+            </div>
+            <div class="section-body">
+                                <div class="item">
+                    <p>&nbsp;</p>
+<p><span style="text-decoration: underline;"><strong>Contest Rules</strong></span></p>
+<p>Reference: <a href="http://blog.sina.com.cn/s/blog_b946da100102wyh6.html">Asia Regional Rules</a> from Asia Director CJ Hwang</p>
+<p>Reference: <a href="http://blog.sina.com.cn/s/blog_b946da100102wyn0.html">Asia Pacific and Indochina Sub-Region Resolutions</a> from Asia Director CJ Hwang</p>
+<p>Each team will be randomly assigned a workstation.</p>
+<p>Teams will compete to solve 12 algorithmic problems in 5 hours.</p>
+<p>Each problem consists of the following:</p>
+<ul>
+<li>problem statement: a description of the problem (in English)</li>
+<li>input-output specifications: details on input and output format, including constraints which should be handled (output must have an exact match with the format specification)</li>
+<li>sample input-output</li>
+<li>time limit: maximum time allowed for the program to run and produce expected output</li>
+</ul>
+<p>Teams may request for clarifications about the problems using the contest management system. If all judges agree that ambiguity is present in the problem, a broadcast of the clarification will be made to all teams.</p>
+<p>Should a contestant require use of the restroom during the contest proper, the contestant will be accompanied by a designated usher.</p>
+<p><span style="text-decoration: underline;"><strong>Submissions</strong></span></p>
+<p>Teams should submit their source code using the contest management system any time during the contest period.</p>
+<p>A problem is solved when it is accepted by the judges. To accept or reject a submission, judges will compile and test the program with a different set of test data which have been prepared in advance.</p>
+<p>Each submission will get one of the following responses:</p>
+<ol>
+<li>Accept<br />
+The program produced the correct output within the specified run time and memory limits without any errors. This program is accepted by the judges and the problem is considered as solved.</li>
+<li>Wrong Answer<br />
+The program did not produce the correct output.</li>
+<li>Runtime Error<br />
+The program crashed (runtime error) when processing the test data.</li>
+<li>Time Limit Exceeded<br />
+The program took more than the specified time limit to produce output and properly terminate.</li>
+<li>Compile Error<br />
+The submitted source code can not be compiled.</li>
+</ol>
+<p>No other details will be given to each response.</p>
+<p><strong><span style="text-decoration: underline;">Fair Competition</span></strong></p>
+<p>A team may be <strong>disqualified due to any form of cheating or any attempt at cheating</strong>. A team may also be disqualified for any act that jeopardizes the contest (e.g. hacking or tampering with equipment, dislodging electrical or network cables, distracting behavior, etc). All teams are expected to uphold sportsmanship and the spirit of fair competition. Contestants are <strong>not allowed</strong> to access any webpages or websites.</p>
+<p><span style="text-decoration: underline;"><strong>Ranking</strong></span></p>
+<p>Teams are ranked according to the most number of problems solved. Teams who solve the same number of problems are ranked by least total time. The total time is the sum of the time consumed for each solved problem (in minutes). The time consumed for a solved problem is the time elapsed from the beginning of the contest to the submission time of the accepted run, plus 20 penalty minutes for every rejected submission of that problem.</p>
+<p>All inquiries, concerns, and protests on the results must be brought to the attention of the Regional Contest Director and the Chief of Judges within three (3) days of the competition&#8217;s closing ceremony before elevating such concerns to ACM ICPC.</p>
+<p><span style="text-decoration: underline;"><strong>Team Notebook</strong></span></p>
+<p>Each team may bring reference material for use during the contest proper, according to the following limitations:</p>
+<ul>
+<li>It may contain up to 25 pages of reference materials, machine-printed on single-sided Letter (8 x 11 inches) or A4 size paper (210 x 297 mm), with pages numbered on the upper right hand corner.</li>
+<li>It may contain code listings, algorithms, hints, or any other necessary notes.</li>
+<li>Each team member may have an <strong>exact copy</strong> of the team reference document.</li>
+<li>Text and illustrations must be readable by a person with correctable eyesight without magnification from a distance of 0.5 meter.</li>
+</ul>
+<p>The team may also bring stationery (pens, pencils, erasers, rulers, protractors, etc.), and a printed English dictionary (not electronic) without any annotations. Each team will be provided with blank paper during the contest proper.</p>
+<p>All materials (team notebooks, stationery, etc.) will be collected on the first day (Dec 14) for inspection. The materials will then be placed in the team&#8217;s designated workstation for the contest proper.</p>
+<p>No other materials are allowed in the contest area.</p>
+<p>Teams are <strong>not allowed</strong> to bring:</p>
+<ul>
+<li>any digital materials (e.g. e-books, soft copy code, etc.)</li>
+<li>any digital devices (e.g. flash drives, external hard drives, keyboards, etc.)</li>
+<li>any other electronic devices (e.g. mobile phones, smart watches, calculators, laptops, etc.)</li>
+</ul>
+<p>Contestants are expected to switch off all communication devices and surrender such devices to their respective coaches for the duration of the contest.</p>
+<p><span style="text-decoration: underline;"><strong>Computing Environment</strong></span></p>
+<p>Hardware</p>
+<ul>
+<li>Desktop Computer</li>
+<li>Intel Core i5</li>
+<li>4GB RAM</li>
+<li>500GB HDD</li>
+<li>Ubuntu 16.04.1 OS</li>
+</ul>
+<p>Programming Languages</p>
+<ul>
+<li>Java 1.8.0 update 111</li>
+<li>Javadocs 1.8.0 update 111</li>
+<li>Python 2.7.12 (python on command line)</li>
+<li>Python 3.5.2 (python3 on command line)</li>
+<li>GCC/G++ 5.4.0</li>
+</ul>
+<p>Development Environment</p>
+<ul>
+<li>Eclipse Cpp Neon 1 v4.6.1 with PyDev</li>
+<li>Eclipse Java Neon 1 v4.6.1 with PyDev</li>
+<li>Sublime 3 build 3126</li>
+<li>Atom 1.12.4</li>
+</ul>
+<p>Contest Management System</p>
+<ul>
+<li>PC^2 9.3.3</li>
+</ul>
+                  </div>
+                          </div>        
+          </section>
+        
+          
+              
+                  <section id="prizes">
+            <div class="section-header">
+              <h3>Prizes</h3>
+              <p class="description">
+                              </p>
+            </div>
+            <div class="section-body">
+                                <div class="item">
+                    <h3>CHAMPION</h3>
+<p><img class="wp-image-217 size-medium alignnone" src="http://penoy.admu.edu.ph/~acmicpc/archive/2016/wp-content/uploads/Aspire_V15_V3-574_V3-575_V5-591-nonglare-main-300x300.png" alt="Model: V3-575G-74ZZ (i7-6500U (Skylake), 4GB RAM, 1TB HDD, NVidia GT940M w/ 2GB memory, 15” HD screen, Win10)" width="300" height="300" srcset="http://penoy.admu.edu.ph/~acmicpc/archive/2016/wp-content/uploads/Aspire_V15_V3-574_V3-575_V5-591-nonglare-main-150x150.png 150w, http://penoy.admu.edu.ph/~acmicpc/archive/2016/wp-content/uploads/Aspire_V15_V3-574_V3-575_V5-591-nonglare-main-300x300.png 300w, http://penoy.admu.edu.ph/~acmicpc/archive/2016/wp-content/uploads/Aspire_V15_V3-574_V3-575_V5-591-nonglare-main.png 536w" sizes="(max-width: 300px) 100vw, 300px" /><br />
+<strong>Acer V3-575G-74ZZ Laptop<br />
+</strong>(for each team member)<br />
+CPU: i7-6500U (Skylake)<br />
+RAM: 4GB<br />
+HDD: 1TB<br />
+GPU: NVidia GT940M with 2GB memory<br />
+Display: 15” HD screen<br />
+OS: Windows 10</p>
+<h3></h3>
+                  </div>
+                                <div class="item">
+                    <h3>RUNNER-UP</h3>
+<p><strong>Acer Iconia Tab 10</strong><br />
+(for each team member)<br />
+WiFi Connectivity<br />
+CPU: MT8163V/A quad-core Cortex A53 1.5 GHz<br />
+RAM: 2GB<br />
+Internal Storage: 32GB, expandable<br />
+Display: 10&#8243;<br />
+OS: Android 6.0 (Marshmallow)</p>
+<h3></h3>
+                  </div>
+                                <div class="item">
+                    <h3>SECOND RUNNER-UP</h3>
+<p><strong>Transcend External HDD 2TB</strong><br />
+(for each team member)</p>
+<h3></h3>
+                  </div>
+                                <div class="item">
+                    <h3>BEST LOCAL TEAM (not in Top 3)</h3>
+<p><strong>Transcend External HDD 1TB</strong><br />
+(for each team member)</p>
+<h3></h3>
+                  </div>
+                                <div class="item">
+                    <h3>FIRST TO SOLVE ANY PROBLEM</h3>
+<p><strong>Sandisk 128GB OTG 3.0 Flash Drive for Android</strong><br />
+(for each team member)</p>
+<h3>FIRST TO SOLVE each succeeding problem</h3>
+<p><strong>Transcend 32GB OTG Flash Drive for Android</strong><br />
+(for each team member)</p>
+                  </div>
+                          </div>        
+          </section>
+        
+          
+              
+                  <section id="program-flow">
+            <div class="section-header">
+              <h3>Program Flow</h3>
+              <p class="description">
+                              </p>
+            </div>
+            <div class="section-body">
+                                <div class="item">
+                    <blockquote><p>You may get an offline copy of the program flow <a href="http://penoy.admu.edu.ph/~acmicpc/archive/2016/wp-content/uploads/Program-of-Activities.pdf" target="_blank" rel="">here</a>.</p></blockquote>
+<h4 class="section-title">Wednesday, 14 December 2016</h4>
+<p class="section-subtitle">Opening Ceremony and Practice Session</p>
+<table class="section-table">
+<tbody>
+<tr>
+<th>Time Start</th>
+<th>Time End</th>
+<th>Venue</th>
+<th>Activity</th>
+</tr>
+<tr>
+<td>12:00 PM</td>
+<td>2:00 PM</td>
+<td>MVP Roof Deck</td>
+<td>Registration of Teams</td>
+</tr>
+<tr>
+<td>2:00 PM</td>
+<td>3:00 PM</td>
+<td>MVP Roof Deck</td>
+<td>Opening Ceremony</td>
+</tr>
+<tr>
+<td>3:00 PM</td>
+<td>6:00 PM</td>
+<td>5F Rizal Library</td>
+<td>Practice Session</td>
+</tr>
+</tbody>
+</table>
+                  </div>
+                                <div class="item">
+                    <h4 class="section-title">Thursday, 15 December 2016</h4>
+<p class="section-subtitle">Contest Proper and Closing Ceremony</p>
+<table class="section-table">
+<tbody>
+<tr>
+<th>Time Start</th>
+<th>Time End</th>
+<th>Venue</th>
+<th>Activity</th>
+</tr>
+<tr>
+<td>8:30 AM</td>
+<td>9:30 AM</td>
+<td>Leong Hall Lobby</td>
+<td>Breakfast</td>
+</tr>
+<tr>
+<td>9:30 AM</td>
+<td>3:30 PM</td>
+<td>5F Rizal Library</td>
+<td>Regional Contest Proper</td>
+</tr>
+<tr>
+<td>12:30 PM</td>
+<td>1:30 PM</td>
+<td>1F Rizal Library</td>
+<td>Lunch for Coaches</td>
+</tr>
+<tr>
+<td>3:30 PM</td>
+<td>5:00 PM</td>
+<td>5F Rizal Library</td>
+<td>Snacks and Campus Tour</td>
+</tr>
+<tr>
+<td>5:00 PM</td>
+<td>6:00 PM</td>
+<td>Leong Hall Auditorium</td>
+<td>Closing Ceremony</td>
+</tr>
+<tr>
+<td>6:00 PM</td>
+<td>8:00 PM</td>
+<td>Leong Hall Roof Deck</td>
+<td>Dinner</td>
+</tr>
+</tbody>
+</table>
+<p> <a href="http://penoy.admu.edu.ph/~acmicpc/archive/2016/second-day/#more-267" class="more-link">(more&hellip;)</a></p>
+                  </div>
+                                <div class="item">
+                    <h4 class="section-title">Friday, 16 December 2016</h4>
+<p class="section-subtitle">Optional Excursion Day &#8212; <span style="color: #ff0000;"><strong>CANCELLED</strong></span></p>
+<table class="section-table">
+<tbody>
+<tr>
+<th>Time Start</th>
+<th>Time End</th>
+<th>Venue</th>
+<th>Activity</th>
+</tr>
+<tr>
+<td>8:30 AM</td>
+<td>9:00 AM</td>
+<td>Leong Hall Lobby</td>
+<td>Breakfast</td>
+</tr>
+<tr>
+<td>9:00 AM</td>
+<td>9:30 AM</td>
+<td>Leong Hall Lobby</td>
+<td>Departure for Optional Tour</td>
+</tr>
+<tr>
+<td>9:30 AM</td>
+<td>3:00 PM</td>
+<td>Tour Venues</td>
+<td>Optional Tour</td>
+</tr>
+<tr>
+<td>3:00 PM</td>
+<td>5:00 PM</td>
+<td>Tour Venue</td>
+<td>Departure for Return to ADMU</td>
+</tr>
+</tbody>
+</table>
+                  </div>
+                          </div>        
+          </section>
+        
+          
+              
+                  <section id="optional-tours">
+            <div class="section-header">
+              <h3>Optional Tours</h3>
+              <p class="description">
+                              </p>
+            </div>
+            <div class="section-body">
+                                <div class="item">
+                    <p>Manila, with its rich history and cultural heritage, has many attractions to offer. For this optional tour brought to you by the ACM ICPC Asia-Manila Team, guests will be toured around the city to discover key landmarks and notable attractions that yearn to present the capital city.</p>
+<h3><span style="color: #ff0000;">CANCELLED</span><br />
+Tentative Itinerary:</h3>
+<ol>
+<li>Rizal Park / Luneta</li>
+<li>Intramuros</li>
+<li>Philippine International Convention Center</li>
+<li>Fort Santiago Park</li>
+<li>Casa Manila</li>
+<li>Manila Ocean Park</li>
+<li>Science Discovery</li>
+</ol>
+<p><strong>Rate:</strong> Php 3,500 per head</p>
+<p><strong>Tour Operator:</strong> Everyday Travel and Tours Corp.</p>
+                  </div>
+                          </div>        
+          </section>
+        
+          
+              
+                  <section id="location">
+            <div class="section-header">
+              <h3>Location</h3>
+              <p class="description">
+                              </p>
+            </div>
+            <div class="section-body">
+                                <div class="item">
+                    <p><iframe id="location-map" style="border: 0;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3860.288488969047!2d121.0759830142749!3d14.639558439777675!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b77fd9e304c9%3A0x61ad426d7c6cce9e!2sAteneo+de+Manila+University!5e0!3m2!1sen!2sph!4v1478415317280" width="600" height="400" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+                  </div>
+                                <div class="item">
+                    <p><strong>Ateneo de Manila University</strong><br />
+              Katipunan Avenue, Brgy. Loyola Heights<br />
+              Quezon City, Metro Manila, Philippines 1108</p>
+                  </div>
+                                <div class="item">
+                    <p><img class="alignnone size-large wp-image-355" src="http://penoy.admu.edu.ph/~acmicpc/archive/2016/wp-content/uploads/Map_Campus-Map-1024x724.png" alt="Campus Map" width="1024" height="724" srcset="http://penoy.admu.edu.ph/~acmicpc/archive/2016/wp-content/uploads/Map_Campus-Map-300x212.png 300w, http://penoy.admu.edu.ph/~acmicpc/archive/2016/wp-content/uploads/Map_Campus-Map-1024x724.png 1024w" sizes="(max-width: 1024px) 100vw, 1024px" /></p>
+                  </div>
+                          </div>        
+          </section>
+        
+          
+              
+                  <section id="accommodations">
+            <div class="section-header">
+              <h3>Accommodations</h3>
+              <p class="description">
+                Note: All teams are in charge of booking their own accommodations. We have provided a list of hotels that you may consider. Please transact directly with the hotel of choice.              </p>
+            </div>
+            <div class="section-body">
+                                <div class="item">
+                    <div class="hotel">
+<div class="details">
+<h3 class="hotel-name">Microtel by Wyndham &#8211; UP Technohub</h3>
+<p class="address">UP-Ayala Land Technohub, Commonwealth Avenue, Diliman, Quezon City, Metro Manila, Philippines</p>
+<p>(02) 804 6888<br />
+<a href="mailto: uptechnohub@microtel.ph">uptechnohub@microtel.ph</a><br />
+<a href="http://www.microtelphilippines.com/">http://www.microtelphilippines.com/</a></p>
+</div>
+<div class="rates">
+<h4>Special Rate:</h4>
+<p class="subtitle">Shuttle from the hotel to the contest venue and vice versa will be provided by the organizers.</p>
+<table class="section-table">
+<tbody>
+<tr>
+<th>Room</th>
+<th>Price</th>
+<th>Additional Details</th>
+</tr>
+<tr>
+<td>2 Queen Bedroom &#8211; Standard Room Single/Twin Sharing</td>
+<td>Php 3,300.00</td>
+<td>+ Php 750 for additional person</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+                  </div>
+                                <div class="item">
+                    <div class="hotel">
+<div class="details">
+<h3 class="hotel-name">Microtel by Wyndham &#8211; Acropolis</h3>
+<p class="address">E. Rodriguez Jr. Ave. Brgy. Bagumbayan, Quezon City Philippines 1110</p>
+<p>(02) 962 8899<br />
+<a href="mailto: acropolis@microtel.ph">acropolis@microtel.ph</a><br />
+<a href="http://www.microtelphilippines.com/">http://www.microtelphilippines.com/</a></p>
+</div>
+<div class="rates">
+<h4>Special Rate:</h4>
+<p class="subtitle">Shuttle from the hotel to the contest venue and vice versa will be provided by the organizers.</p>
+<table class="section-table">
+<tbody>
+<tr>
+<th>Room</th>
+<th>Price</th>
+<th>Additional Details</th>
+</tr>
+<tr>
+<td>2 Queen Bedroom &#8211; Standard Room Single/Twin Sharing</td>
+<td>Php 3,300.00</td>
+<td></td>
+</tr>
+<tr>
+<td>1 Queen Bed Suite &#8211; Single/Twin Sharing</td>
+<td>Php 4,300.00</td>
+<td>+ Php 750 for additional person</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+                  </div>
+                                <div class="item">
+                    <div class="hotel">
+<div class="details">
+<h3 class="hotel-name">SEAMEO INNOTECH International House</h3>
+<p class="address">Commonwealth Avenue, Diliman, Quezon City 1101</p>
+<p>(+63-2) 921-0224 (Telefax)<br />
+(+632) 928-7692<br />
+(+632) 924-7681 to 84<br />
+(+632) 928-7348<br />
+<a href="mailto: info@seameo-innotech.org">info@seameo-innotech.org</a><br />
+<a href="http://www.seameo-innotech.org/">http://www.seameo-innotech.org/</a></p>
+</div>
+<div class="rates">
+<h4>Special Rate:</h4>
+<p class="subtitle">Shuttle from the hotel to the contest venue and vice versa will be provided by the organizers.</p>
+<table class="section-table">
+<tbody>
+<tr>
+<th>Room</th>
+<th>Price</th>
+<th>Additional Details</th>
+</tr>
+<tr>
+<td>Twin Sharing</td>
+<td>Php 2070 per night w/o breakfast, Php 2370 per night w/ breakfast (this rate only available on weekdays since no canteen on weekends)</td>
+<td>+Php 500 per extra person</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+                  </div>
+                                <div class="item">
+                    <div class="hotel">
+<div class="details">
+<h3 class="hotel-name">My Place Residences</h3>
+<p class="address">22 Fabian de la Rosa St. Loyola Heights, Quezon City</p>
+<p>(02)433-0667 / 09178914677<br />
+<a href="mailto: finest@myplace.ph">finest@myplace.ph</a><br />
+<a href="http://www.myplace.ph/">http://www.myplace.ph/</a></p>
+</div>
+<div class="rates">
+<h4>Regular Rate:</h4>
+<table class="section-table">
+<tbody>
+<tr>
+<th>Room</th>
+<th>Price</th>
+<th>Additional Details</th>
+</tr>
+<tr>
+<td></td>
+<td>Php 2,300/night for 2 persons</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+                  </div>
+                          </div>        
+          </section>
+        
+          
+              
+                  <section id="about">
+            <div class="section-header">
+              <h3>About the Regionals</h3>
+              <p class="description">
+                              </p>
+            </div>
+            <div class="section-body">
+                                <div class="item">
+                    <p><em><span style="font-weight: 400;">The ACM International Collegiate Programming Contest (ICPC) is a multitier, team-based, programming competition operating under the auspices of ACM and headquartered at Baylor University. The ACM ICPC Asia-Manila Regionals 2016 acts as a qualifier for the upcoming 2017 World Finals to be held in South Dakota, USA.</span></em></p>
+<p><em><span style="font-weight: 400;">The regionals is open to all universities in the Philippines and in the Asia-Pacific region.</span></em></p>
+<p>Ateneo de Manila University is pleased to host the 2016 Asia-Manila Regional Contest at the Loyola Heights Campus, and welcomes contestants from the other parts of the region, as well as from other universities in the Philippines.</p>
+<blockquote><p>This event is endorsed by CHED and DOST. You may view the endorsement letters <a href="http://penoy.admu.edu.ph/~acmicpc/archive/2016/endorsements/" target="_blank">here</a>.</p></blockquote>
+<p><strong>Wednesday, 14 December 2016:</strong> Opening Ceremony and Practice Session<br />
+<strong>Thursday, 15 December 2016:</strong> ACM ICPC Asia – Manila Regional Contest 2016 and Closing Ceremony<br />
+<strong>Friday, 16 December 2016:</strong> Optional Excursion Day</p>
+<h2>Organization and Committee</h2>
+<h3>Honorary Chairs:</h3>
+<ul>
+<li><strong>ADMU Vice President of Loyola Schools:</strong> Dr. Maria Luz Vilches</li>
+<li><strong>ADMU SOSE Dean:</strong> Dr. Evangeline P. Bautista</li>
+<li><strong>ADMU DISCS Chair:</strong> Dr. Marlene M. De Leon</li>
+<li><strong>Asia-Manila Regional Site Contest Director:</strong> <a href="http://people.revoledu.com/kardi/" target="_blank">Dr. Kardi Teknomo</a></li>
+<li><strong>Co-Chair/Asia Contest Director:</strong>
+<ul>
+<li><a href="http://blog.sina.com.cn/cjhwang" target="_blank">Dr. C. J. Hwang</a> (Texas University, Asia Contest Director)</li>
+<li>Dr. Rafael Saldana (National Contest Director)</li>
+</ul>
+</li>
+<li><strong>Associate Site Director:</strong>
+<ul>
+<li><strong>Chief Judge:</strong> Dr. Allan Sioson (Ateneo de Naga University)</li>
+</ul>
+</li>
+<li><strong>Judging Team:</strong>
+<ul>
+<li>Dr. Felix Muga (Ateneo de Manila University)</li>
+<li>Dr. Pablo Manalastas (University of the Philippines, Diliman)</li>
+<li>Dr. Philip Christian Zuniga (University of the Philippines, Diliman)</li>
+<li>Dr. Caslon Chua (Swinburne University, Australia)</li>
+<li>Mr. Kevin Atienza (Kalibrr)</li>
+</ul>
+</li>
+<li><strong>System (Hardware/Software) Chair(s):</strong> Mr. Mark Bautista</li>
+<li><strong>Registration Chair:</strong> Pearl Santos</li>
+<li><strong>Logistics:</strong> <a href="http://www.compsat.org/">CompSAt</a> (Basil Begonia)</li>
+<li><strong>Operations Chair:</strong> Ms. Jessica Sugay</li>
+<li><strong>Web Designer and Maintenance:</strong> <a href="http://chisenires.me/">Chiara Veronica Señires</a> and <a href="http://iandelacruz.me/">Ian De La Cruz</a></li>
+</ul>
+<p><strong>COMMITTEE HEADS</strong></p>
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Contest Assistants: Jose Anadia</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Participant Relations: Pearl Santos</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Programs: Marielle Impuerto</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Logistics: Irene Bermejo</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Publications and Documentations: Mikee Jazmines</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Marketing: Mhaey Contienda and Robi Andres</span></li>
+</ul>
+<p><strong>SUBCORE HEADS</strong></p>
+<ul>
+<li style="font-weight: 400;"><span style="text-decoration: underline;">Participant Relations</span>
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Team Buddies: Kate Que</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Registration: Alyssa Ty</span></li>
+</ul>
+</li>
+<li style="font-weight: 400;"><span style="text-decoration: underline;">Programs</span>
+<ul>
+<li style="font-weight: 400;">Tours</li>
+</ul>
+</li>
+<li style="font-weight: 400;"><span style="text-decoration: underline;">Logistics</span>
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Internal Logistics: Niña Gochy, Kelvin Cabildo</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">External Logistics: Karl Jimenez, Czarina Duka</span></li>
+</ul>
+</li>
+<li style="font-weight: 400;"><span style="text-decoration: underline;">Documentations and Publications</span>
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Creatives: JM Santos</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Documentation: Patrick Ong</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Web Services: Chi Señires</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Productions: Ceara Agay</span></li>
+</ul>
+</li>
+</ul>
+                  </div>
+                          </div>        
+          </section>
+        
+          
+              
+                  <section id="sponsors">
+            <div class="section-header">
+              <h3>Sponsors</h3>
+              <p class="description">
+                              </p>
+            </div>
+            <div class="section-body">
+                                <div id='gallery-1' class='gallery galleryid-287 gallery-columns-3 gallery-size-large'><figure class='gallery-item'>
+			<div class='gallery-icon landscape'>
+				<img width="780" height="180" src="http://penoy.admu.edu.ph/~acmicpc/archive/2016/wp-content/uploads/ateneo-logo.jpg" class="attachment-large size-large" alt="ateneo-logo" srcset="http://penoy.admu.edu.ph/~acmicpc/archive/2016/wp-content/uploads/ateneo-logo-300x69.jpg 300w, http://penoy.admu.edu.ph/~acmicpc/archive/2016/wp-content/uploads/ateneo-logo.jpg 780w" sizes="(max-width: 780px) 100vw, 780px" />
+			</div></figure><figure class='gallery-item'>
+			<div class='gallery-icon landscape'>
+				<img width="220" height="150" src="http://penoy.admu.edu.ph/~acmicpc/archive/2016/wp-content/uploads/ibm-logo.jpg" class="attachment-large size-large" alt="ibm-logo" />
+			</div></figure><figure class='gallery-item'>
+			<div class='gallery-icon landscape'>
+				<img width="1024" height="438" src="http://penoy.admu.edu.ph/~acmicpc/archive/2016/wp-content/uploads/Acer-Master-Brand-1024x438.png" class="attachment-large size-large" alt="Acer Master Brand" srcset="http://penoy.admu.edu.ph/~acmicpc/archive/2016/wp-content/uploads/Acer-Master-Brand-300x128.png 300w, http://penoy.admu.edu.ph/~acmicpc/archive/2016/wp-content/uploads/Acer-Master-Brand-1024x438.png 1024w" sizes="(max-width: 1024px) 100vw, 1024px" />
+			</div></figure><figure class='gallery-item'>
+			<div class='gallery-icon landscape'>
+				<img width="1024" height="410" src="http://penoy.admu.edu.ph/~acmicpc/archive/2016/wp-content/uploads/The-Grove-Logo-1024x410.png" class="attachment-large size-large" alt="The Grove Logo" srcset="http://penoy.admu.edu.ph/~acmicpc/archive/2016/wp-content/uploads/The-Grove-Logo-300x120.png 300w, http://penoy.admu.edu.ph/~acmicpc/archive/2016/wp-content/uploads/The-Grove-Logo-1024x410.png 1024w" sizes="(max-width: 1024px) 100vw, 1024px" />
+			</div></figure>
+		</div>
+
+<div id='gallery-2' class='gallery galleryid-287 gallery-columns-3 gallery-size-medium'><figure class='gallery-item'>
+			<div class='gallery-icon portrait'>
+				<a href='http://penoy.admu.edu.ph/~acmicpc/archive/2016/sponsors/rcbc-2/'><img width="257" height="300" src="http://penoy.admu.edu.ph/~acmicpc/archive/2016/wp-content/uploads/RCBC-257x300.png" class="attachment-medium size-medium" alt="RCBC" srcset="http://penoy.admu.edu.ph/~acmicpc/archive/2016/wp-content/uploads/RCBC-257x300.png 257w, http://penoy.admu.edu.ph/~acmicpc/archive/2016/wp-content/uploads/RCBC-877x1024.png 877w, http://penoy.admu.edu.ph/~acmicpc/archive/2016/wp-content/uploads/RCBC.png 1285w" sizes="(max-width: 257px) 100vw, 257px" /></a>
+			</div></figure><figure class='gallery-item'>
+			<div class='gallery-icon landscape'>
+				<a href='http://penoy.admu.edu.ph/~acmicpc/archive/2016/sponsors/frappe-la-rue/'><img width="300" height="99" src="http://penoy.admu.edu.ph/~acmicpc/archive/2016/wp-content/uploads/frappe-la-rue-300x99.jpg" class="attachment-medium size-medium" alt="frappe la rue" srcset="http://penoy.admu.edu.ph/~acmicpc/archive/2016/wp-content/uploads/frappe-la-rue-300x99.jpg 300w, http://penoy.admu.edu.ph/~acmicpc/archive/2016/wp-content/uploads/frappe-la-rue-1024x339.jpg 1024w" sizes="(max-width: 300px) 100vw, 300px" /></a>
+			</div></figure><figure class='gallery-item'>
+			<div class='gallery-icon landscape'>
+				<a href='http://penoy.admu.edu.ph/~acmicpc/archive/2016/sponsors/uber/'><img width="265" height="56" src="http://penoy.admu.edu.ph/~acmicpc/archive/2016/wp-content/uploads/uber.png" class="attachment-medium size-medium" alt="uber" /></a>
+			</div></figure><figure class='gallery-item'>
+			<div class='gallery-icon landscape'>
+				<a href='http://penoy.admu.edu.ph/~acmicpc/archive/2016/sponsors/smart/'><img width="300" height="82" src="http://penoy.admu.edu.ph/~acmicpc/archive/2016/wp-content/uploads/Smart-300x82.png" class="attachment-medium size-medium" alt="Smart" srcset="http://penoy.admu.edu.ph/~acmicpc/archive/2016/wp-content/uploads/Smart-300x82.png 300w, http://penoy.admu.edu.ph/~acmicpc/archive/2016/wp-content/uploads/Smart.png 640w" sizes="(max-width: 300px) 100vw, 300px" /></a>
+			</div></figure><figure class='gallery-item'>
+			<div class='gallery-icon landscape'>
+				<a href='http://penoy.admu.edu.ph/~acmicpc/archive/2016/sponsors/accenture/'><img width="300" height="128" src="http://penoy.admu.edu.ph/~acmicpc/archive/2016/wp-content/uploads/accenture-300x128.png" class="attachment-medium size-medium" alt="accenture" srcset="http://penoy.admu.edu.ph/~acmicpc/archive/2016/wp-content/uploads/accenture-300x128.png 300w, http://penoy.admu.edu.ph/~acmicpc/archive/2016/wp-content/uploads/accenture.png 800w" sizes="(max-width: 300px) 100vw, 300px" /></a>
+			</div></figure>
+		</div>
+
+<div id='gallery-3' class='gallery galleryid-287 gallery-columns-3 gallery-size-medium'><figure class='gallery-item'>
+			<div class='gallery-icon landscape'>
+				<a href='http://penoy.admu.edu.ph/~acmicpc/archive/2016/sponsors/clickthecity/'><img width="300" height="121" src="http://penoy.admu.edu.ph/~acmicpc/archive/2016/wp-content/uploads/ClickTheCity-300x121.png" class="attachment-medium size-medium" alt="ClickTheCity" srcset="http://penoy.admu.edu.ph/~acmicpc/archive/2016/wp-content/uploads/ClickTheCity-300x121.png 300w, http://penoy.admu.edu.ph/~acmicpc/archive/2016/wp-content/uploads/ClickTheCity-1024x413.png 1024w, http://penoy.admu.edu.ph/~acmicpc/archive/2016/wp-content/uploads/ClickTheCity.png 1500w" sizes="(max-width: 300px) 100vw, 300px" /></a>
+			</div></figure><figure class='gallery-item'>
+			<div class='gallery-icon portrait'>
+				<a href='http://penoy.admu.edu.ph/~acmicpc/archive/2016/sponsors/wheninmanila/'><img width="296" height="300" src="http://penoy.admu.edu.ph/~acmicpc/archive/2016/wp-content/uploads/WhenInManila-296x300.png" class="attachment-medium size-medium" alt="WhenInManila" srcset="http://penoy.admu.edu.ph/~acmicpc/archive/2016/wp-content/uploads/WhenInManila-296x300.png 296w, http://penoy.admu.edu.ph/~acmicpc/archive/2016/wp-content/uploads/WhenInManila-1011x1024.png 1011w" sizes="(max-width: 296px) 100vw, 296px" /></a>
+			</div></figure>
+		</div>
+
+                          </div>        
+          </section>
+        
+            </div>
+</main>
+			<a id="scroll-to-top" href="#" title="Scroll to Top">Top</a>
+			<script type='text/javascript' src='http://penoy.admu.edu.ph/~acmicpc/archive/2016/wp-content/plugins/jquery-smooth-scroll/js/jss-script.min.js?ver=4.4.2'></script>
+<script type='text/javascript' src='http://penoy.admu.edu.ph/~acmicpc/archive/2016/wp-includes/js/wp-embed.min.js?ver=4.4.2'></script>
+
+<footer>
+  <div class="more-info">
+    <h4>External Links</h4>
+    <ul id="external-links">
+      <li><a alt="Blog of ACM-ICPC Asia Director" title="Blog of ACM-ICPC Asia Director" href="http://blog.sina.com.cn/cjhwang">Blog of ACM-ICPC Asia Director</a></li>
+      <li><a alt="Website of ACM-ICPC Regional Director" title="Website of ACM-ICPC Regional Director" href="http://people.revoledu.com/kardi/">Website of ACM-ICPC Regional Director</a></li>
+      <li><a alt="ACM-ICPC Regional Rules" title="ACM-ICPC Regional Rules" href="https://icpc.baylor.edu/regionals/rules">ACM-ICPC Regional Rules</a></li>
+      <li><a alt="ADMU DISCS Website" href="http://www.ateneo.edu/ls/sose/iscs">ADMU DISCS Website</a></li>
+    </ul>
+    <h4>For questions and concerns, you may email<br>
+    <strong><a href="mailto:kteknomo@ateneo.edu">Dr. Kardi Teknomo (kteknomo@ateneo.edu)</a></strong>.</h4>
+  </div>
+    <div class="credits">
+      <div class="logos">
+        <a href="http://ls.ateneo.edu" class="logo"><img id="admu" src="http://penoy.admu.edu.ph/~acmicpc/archive/2016/wp-content/themes/icpc-v2.0/img/ateneo-logo.jpg" alt=""></a>
+      </div>
+      <div class="createdby">
+        Designed and Developed by<br><a href="http://chisenires.me">Chi Se&ntilde;ires</a> and <a href="http://iandelacruz.me">Ian De La Cruz</a>.
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

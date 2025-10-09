@@ -1,0 +1,219 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-size: 1em;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  font-size: 2.98rem;
+}
+
+h2 {
+  font-size: 2.45rem;
+}
+
+h3 {
+  font-size: 2.07rem;
+}
+
+h4 {
+  font-size: 1.72rem;
+}
+
+h5 {
+  font-size: 1.44rem;
+}
+
+h6 { font-size: 1rem;
+}
+
+h1, h2, h3. h4, h5, h6 {
+  line-height: 1.2;
+}
+
+header {
+  display: flex;
+  width: 90%;
+  margin: 40px auto;
+  justify-content: space-between;
+}
+
+header div {
+  width: 30%;
+}
+
+header div:nth-child(2) {
+  width: 35%;
+}
+
+.icpc_logo img {
+  width: 80%;
+  margin: 0 auto;
+  display: block;
+}
+
+.icpc_ibm img {
+  width: 60%;
+  display: block;
+  margin: 0 auto;
+}
+
+.details {
+  text-align: center;
+}
+
+.details p:nth-child(-n+3) {
+  margin: 0.69em;
+}
+
+.event {
+  font-size: 1rem;
+}
+
+.update {
+  float: right;
+}
+
+.legends {
+  display: flex;
+  width: 100%;
+}
+
+.legends p {
+  margin: 0;
+  padding: 0.57em 0.83em;
+}
+
+.legend_title {
+  flex-grow: 2;
+  text-align: right;
+}
+
+.legend {
+  text-transform: uppercase;
+}
+
+.first_solved, .solvedFirst {
+ background-color: #218540 !important;
+ color: white !important;
+}
+
+.solved, .yes {
+ background-color: #5EC583 !important;
+}
+
+.attempt, .attempted, .no {
+  background-color: #E23F46 !important;
+}
+
+.pending {
+ background-color: #2789D2 !important;
+}
+
+main {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.scoreboard {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead {
+  background-color: #009393;
+  color: white;
+  text-transform: uppercase;
+}
+
+th {
+  padding: 9px 6px;
+}
+
+td {
+  text-align: center;
+  padding: 9px 6px;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #EAEAEA;
+}
+
+tbody tr:nth-child(even) {
+  background-color:  #CFCFCF;
+}
+
+tr:nth-child(odd) td:nth-child(n+5):nth-child(odd) {
+  background-color: #BEBEBE;
+}
+
+tr:nth-child(even) td:nth-child(n+5):nth-child(odd) {
+  background-color: #9F9F9F;
+}
+
+.team {
+  text-align: left;
+  padding-left: 1em;
+}
+
+.name {
+}
+
+.school {
+  display: block;
+}
+
+.problem {
+  text-align: center;
+  padding: 0.57em 6px;
+  height: 62px;
+}
+
+.problem p {
+  margin: 0 0 0.47em;
+}
+
+.sponsors {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sponsors div {
+  width: 12%;
+  padding: 1em;
+}
+
+.sponsors img {
+  width: 100%;
+}
+
+footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #EAEAEA;
+}
+
+.footer_left {
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
+}
+
+.footer_right {
+  width: 40%;
+  text-align: right;
+}
+
+footer a, footer a:visited {
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+}

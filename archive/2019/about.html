@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>2019 ICPC Asia-Manila Programming Contest</title>
+    <link rel="stylesheet" href="./main.css" media="all">
+    <script src="https://kit.fontawesome.com/862f24a7ca.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div id="home-container">
+        <button class="btn-outline" id="menu">Menu</button>
+        <a href="./index.html" class="logo">
+          <img src="./images/AsiaMNL_Short.png" alt="ICPC Manila Logo">
+        </a>
+      </div>
+      <div>
+        <img src="./images/icpcf-logo-header_8x.png" alt="ICPC Manila Logo">
+        <img src="./images/sponsor-logo-jb-rgb6x.png" alt="ICPC Manila Logo">
+      </div>
+    </header>
+    <nav>
+      <ul>
+        <li id="home-link"><a href="./index.html">Home</a></li>
+        <li><a href="./schedule.html">Schedule of Activities</a></li>
+        <li><a href="./registration.html">Registration</a></li>
+        <li><a href="./sizing.html">Shirt Sizing</a></li>
+        <li><a href="./accommodations.html">Accommodations</a></li>
+        <li><a href="./rules.html">Rules</a></li>
+        <li><a href="./information.html">Local Information</a></li>
+        <li><a href="./about.html">About</a></li>
+        <li><a href="./downloads.html">Downloads</a></li>
+        <li><a href="http://curry.ateneo.net/icpcmanila2019">Scoreboard</a></li>
+      </ul>
+    </nav>
+    <main>
+      <section class="page-header">
+        <svg
+               width="768"
+               height="90"
+               viewBox="0 0 768 90"
+               fill="none"
+               xmlns="http://www.w3.org/2000/svg"
+               id="bottom-corner">
+          <path d="M523.101 67.5L244.913 59.5588L0 90H776V0L523.101 67.5Z" id="path2"/>
+        </svg>
+        <div class="page-header-content">
+          <h1 class="page-title">About the Event</h1>
+        </div>
+      </section>
+      <section>
+        <p>
+        The Ateneo de Manila University is proud to host the 2019 ICPC Asia-Manila
+        Regional Programming Contest, continuing from experiences in 2016 and 2017.
+        </p>
+        <p>
+        The ICPC Asia-Manila Regionals 2019 serves as one of the qualifiers for the
+        ICPC World Finals.
+        </p>
+        <p>
+        The ICPC traces its roots to 1970 when the first competition was hosted by
+        pioneers of the Alpha Chapter of the UPE Computer Science Honor Society. The
+        initiative spread quickly within the United States and Canada as an
+        innovative program to raise increase ambition, problem-solving aptitude, and
+        opportunities of the strongest students in the field of computing.
+        </p>
+        <p>
+        Over time, the contest evolved into a multi-tier competition with the first
+        championship round conducted in 1977. Since then, the contest has expanded
+        into a worldwide collaborative of universities hosting regional competitions
+        that advance teams to the annual global championship round, the ICPC World
+        Finals.
+        </p>
+        <p>
+        The International Collegiate Programming Contest (ICPC) is the premier
+        global programming competition conducted by and for the world’s
+        universities. The ICPC is affiliated with the ICPC Foundation and is
+        headquartered at Baylor University.
+        </p>
+      </section>
+    </main>
+    <footer>
+      <div class="footer-content">
+        <section>
+          <h5>Sitemap</h5>
+          <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./registration.html">How to Register</a></li>
+            <li><a href="./accommodations.html">Accommodations</a></li>
+            <li><a href="./rules.html">Rules</a></li>
+            <li><a href="./about.html">About</a></li>
+          </ul>
+        </section>
+        <section>
+          <h5>External Links</h5>
+          <ul>
+            <li><a href="http://blog.sina.com.cn/cjhwang">ICPC Asia Director's Blog</a></li>
+            <li><a href="https://icpc.baylor.edu/regionals/rules">ICPC Regional Rules</a></li>
+            <li><a href="https://icpc.baylor.edu/">ICPC Headquarters Page</a></li>
+          </ul>
+        </section>
+        <section class="footer_logos">
+          <img src="./images/ICPC_Foundation.png" alt="">
+          <img src="./images/Logo_ADMU_Seal.png" alt="">
+        </section>
+      </div>
+    </footer>
+    <script>
+      let menu = document.querySelector('#menu')
+      menu.addEventListener('click', function() {
+        document.querySelector('nav').classList.toggle('slide-menu')
+        document.querySelectorAll('.site-header, main, footer').forEach(el => {
+          el.classList.toggle('slide-in')
+        })
+      })
+    </script>
+  </body>
+</html>

@@ -1,0 +1,8 @@
+/* Content of a page */
+body {
+	margin-top: 4em;
+}
+article h2 {
+	margin-top: 2em !important;
+	font-size: 2em !important;
+}

@@ -1,0 +1,553 @@
+/*
+Theme Name: ICPC Manila 2017 Updated
+Author: Chi SeÃ±ires and Gab De Jesus
+Author URI: http://chisenires.me
+Description: Layout for ACM ICPC Asia-Manila Regionals 2017.
+Version: 1.0
+Text Domain: ICPCManila2017
+Tags: icpc, acm, ateneo, asia, manila, regionals
+*/
+
+
+/* STYLESHEET FOR ACM ICPC ASIA-MANILA REGIONALS WEBSITE 2017 */
+
+/*Reponsive Styling*/
+.hidden {
+	display: none;
+}
+
+/*Header*/
+#header {
+	background-color: #19325C;
+	height: 5em;
+}
+
+.pusher {
+	width: 100%;
+}
+
+/* Entire body */
+.ui#content {
+	margin-top: 5em; /* #header size */
+	width: 100%;
+	background-color: white;
+}
+
+p, ul, ol {
+	font-size: 20px;
+}
+
+/* New */
+#info p {
+    display: inline;
+		margin: 0 1em;
+}
+
+
+.center {
+	text-align: center;
+}
+
+/*Sidebar*/
+#sidebar {
+	background-color: #19325C;
+}
+
+
+/*Header of each article*/
+.sectionhead {	
+	color: #2485c5 !important;
+}
+
+/*Individual posts or Articles*/
+article {
+	margin-bottom: 5em;
+}
+
+/*So that header wont block when anchor jumping*/
+article:before { 
+  display: block; 
+  content: " "; 
+  margin-top: -75px; 
+  height: 75px; 
+  visibility: hidden; 
+}
+
+/* Margin after each div, for more readability */
+article div.container div {
+	margin-bottom: 3em;
+}
+
+article a {
+	border-bottom: 1px solid #2485c5;
+}
+
+article a:hover {
+	color: #19325C;
+	border-bottom: 1px solid #19325C;
+}
+
+/*Introduction jumbotron*/
+#logo {
+	padding: 1em;
+	width: 23em;
+	width: 15em;
+	display: block;
+	margin-top: 2em;
+	margin-left: auto;
+	margin-right: auto;
+	
+/* 	For widgets */
+	margin: 0 auto;
+}
+
+/* For place and date */
+#info p {
+    border: 2px solid #2485C5;
+	border-radius: 10px;
+	padding: 0.5em;
+}
+
+#intro {
+	text-align: center;
+	padding-top: 3em;
+
+	/*Bg*/
+	height: 100vh;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-image: url("images/parallax/ICPC_Parallax_BG.png");
+}
+
+#intro_header {
+	margin: 10px;
+	color: #19325C !important;
+}
+
+/*Think create solve*/
+#intro .ui.grid h1 {
+	font-size: 5em;
+}
+
+#intro #dates {
+	margin: 1em;
+}
+
+#info {
+	margin: 1.5em;
+}
+
+/*Spiel fade in*/
+.spiel h1 {
+	display: none;
+}
+
+/* Link to scoreboard */
+#dates .textwidget a {
+	color: rgb(36, 133, 197);
+	border: 2px solid rgb(36, 133, 197);
+	border-radius: 0;
+	background: none;
+	-webkit-transition: 0.5s;
+	transition: 0.5s;
+	font-size: 1em;
+}
+
+#dates .textwidget a:hover {
+	background: #1a69a4;
+	color: white;
+}
+
+/* Widgets design */
+.widget-item {
+	margin: 0 auto;
+}
+
+#dates .widgets:last-child {
+	margin-bottom: 2em;
+}
+
+/* Winners */
+#winners h3, #winners h2 {
+    margin: 0;
+}
+
+/*About / What is ACM-ICPC?*/
+#about {
+	height: 100vh;
+}
+
+#about .header {
+	text-align: center;
+	padding: 2em;
+}
+
+#about a {
+	margin-top: 1em;
+}
+
+/*Sponsors*/
+#sponsors {
+	padding: 7em 0;
+	background: -webkit-gradient(
+		linear,
+		left top, left bottom,
+		from(rgba(0, 0, 0, 0.7)),
+		to(rgba(0, 0, 0, 0.3))
+	), 
+	url("images/ICPC2016_4.jpg");
+	background: linear-gradient(
+		rgba(0, 0, 0, 0.7),
+		rgba(0, 0, 0, 0.3)
+	), 
+	url("images/ICPC2016_4.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+}
+
+#sponsors .sectionhead {
+	color: white !important;
+}
+
+#sponsors .ui.container {
+	background-color: white;
+	background: -webkit-gradient(
+		linear,
+		left top, left bottom,
+		from(rgba(255, 255, 255, 0.9)),
+		to(rgba(255, 255, 255, 0.9))
+	);
+	background: linear-gradient(
+		rgba(255, 255, 255, 0.9),
+		rgba(255, 255, 255, 0.9)
+	);
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+
+	-ms-flex-pack: distribute;
+
+	    justify-content: space-around;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	
+	-ms-flex-wrap: wrap;
+	
+	    flex-wrap: wrap;
+	height: 70%;
+}
+
+#sponsors .ui.container {
+    padding: 2em;
+}
+
+#sponsors .item {
+	padding: 1em 1em;
+	margin: 0 2em;
+	height: auto;
+	width: 20em;
+}
+
+#sponsors #stratpoint {
+	width: auto;
+	height: 7em;
+	padding: 0;
+}
+
+#sponsors #aipros {
+   	width: 18%;
+}
+    
+#sponsors #accenture {
+	padding-top: 0.5em;
+}
+
+/* Announcements */
+#female-participants {
+	width: 100%;
+	margin-top: 5em
+}
+
+
+/* Program of activities */
+#program-of-activities h2{
+	text-align: center;
+
+}
+
+
+/* Styles for all posts */
+article{
+	margin-bottom: 3em;
+}
+
+article>div p, article>div ul, article>div ol {
+	font-size: 1.2em;
+	margin: 0.5em 0;
+	line-height: 1.5em;
+}
+
+/*For making sure nested ul and ol don't multiply size*/
+article>div ul li ul, article>div ol li ol, article>div ol ol, article>div ol ul{
+	font-size: 100%;
+}
+
+/*List item margins*/
+article>div li {
+	margin: 0.3em 0;
+}
+
+/* Registration */
+.dim {
+	color: grey;
+}
+
+/*Blockquote styling*/
+article>div blockquote p{
+	font-size: 1em;
+}
+
+article>div blockquote {
+	padding: 0.5em 1em;
+	border-left: 0.5em solid #2485c5;
+	background-color: #eee;
+}
+
+/*Note quick fix*/
+article>div .note {
+	font-size: 1em;
+}
+
+
+/*Action Banner*/
+#action-banner {
+	/*background-color: #2F599F;*/
+}
+
+/*Column margin*/
+#action-banner .column {
+  padding: 2em 0;
+}
+
+/*Button margin*/
+#action-banner a {
+	/*margin-bottom: 2em !important;*/
+}
+
+/*Footer*/
+footer {
+	padding: 4em 0;
+	color: white;
+	background-color: black;
+}
+
+footer a {
+	padding-bottom: 1.5em !important;
+}
+
+/*Sponsors*/
+footer#contact-us img.image {
+	width: 15em;
+}
+
+footer#contact-us.imageholder a {
+	margin: 2em;
+}
+
+/*Semantic UI Helper classes*/
+.large.text {
+	font-size: 2rem;
+}
+
+.widgets {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+}
+
+.widgets > .widget-item {
+	margin: 1em;
+}
+
+/*Media queries*/
+
+/* For sponsors flex background */
+@media only screen and (max-width: 1200px) {
+	#sponsors .item {
+		margin: 1em;
+		padding: 1em;
+	}
+
+	#female-participants {
+		margin-top: 0;
+	}
+}
+
+@media only screen and (max-width: 990px) {
+	#sponsors .item {
+		width: 15em;
+	}
+	#sponsors #aipros {
+   		width: 30%;
+    }
+}
+
+@media only screen and (max-width: 952px) {
+	p, ul, ol {
+		font-size: 20px;
+		font-size: 1em;
+	}
+	/*Hide stuff*/
+	#title, .tohide, .spiel h1, #header .menu .tiny, #top, #contact img{
+		display: none;
+	}
+	
+  	#small_title {
+    	height: 100%;
+    	vertical-align: middle;
+  	}
+
+	.hidden {
+		display: block;
+	}
+
+	#header {
+		width: 100%;
+	}
+
+	#dates {
+	}
+
+	#dates p {
+		margin: 0 1em;
+		text-align: center;
+	}
+
+    #logo {
+    	width: 20em;
+    }
+
+    #intro {
+    	height: 100vh;
+  		background-size: cover;
+  		background-image: url("images/parallax/ICPC_Parallax_BG.png");
+  		background-repeat: repeat;
+  		background-size: 130%;
+  		background-attachment: fixed;
+  		background-position: center;
+    }
+
+    #logo {
+    	margin-top: 0;
+    }
+	
+	/*What is ACM-ICPC?*/
+
+	#about .header {
+		padding: 0;
+		text-align: left;
+		width: 300px;
+	}
+
+    #about p {
+    	font-size: 1.2em;
+    }
+
+    /*Carousel*/
+    /*Sponsors*/
+	#sponsors {
+		height: 100%;
+		padding-bottom: 2em;
+		margin-bottom: 3em !important;
+	}
+
+	#sponsors .item {
+		width: 40%;
+		height: auto;
+	}
+
+    #sponsors .ui.container {
+    	-ms-flex-wrap: wrap;
+    	    flex-wrap: wrap;
+    	padding: 0 10%;
+    }
+
+    #sponsors #dost {
+    	padding-bottom: 0;
+    }
+    
+    #sponsors #stratpoint {
+    	width: 18em;
+    	height: auto;
+    	margin: 1em;
+    }
+
+    #sponsors #accenture {
+    	padding-top: 1.5em;
+    }
+	
+    blockquote {
+    	width: 100%;
+    	margin-left: 0;
+    }
+	
+    #action-banner .column {
+    	padding: 2em !important;
+    }
+
+    footer {
+      text-align: center;
+    }
+}
+
+
+
+@media only screen and (max-width: 766px) {
+	#intro {
+        margin-bottom: 13em;
+	}
+	#about {
+		margin-bottom: 20em !important;
+	}
+
+	#logo {
+		width: 40%;
+	}
+	
+	#info p {
+        display: inline-block;
+	}
+	
+	#sponsors .ui.container {
+		padding: 2em;
+	}
+
+	#sponsors .item {
+		width: 20em;
+		margin: 2em;
+		padding: 0 1em;
+	}
+
+	#sponsors #aipros {
+		width: 10em;
+	}
+
+	.widgets > .widget-item {
+		margin: 0.5em;
+	}
+}

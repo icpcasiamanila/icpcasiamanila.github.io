@@ -1,0 +1,786 @@
+/*
+Theme Name: ICPC Regionals 2.0
+Author: Chi Señires
+Author URI: http://chisenires.me
+Description: Layout for ACM ICPC Asia-Manila Regionals.
+Version: 2.0
+Tags: icpc, acm, ateneo, asia, manila, regionals
+*/
+
+/**
+ * 2016 ACM ICPC Asia-Manila Regionals Contest
+ * 
+ * @author Chi Señires
+ * @email chi.senires@gmail.com
+ */
+
+/**
+ * GENERAL styles
+ */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  background-color: #eee;
+  font-size: 16px;
+  font-family: 'Arial', sans-serif;
+  overflow-x: hidden;
+  line-height: 2em;
+  color: #1a1a1a;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+a {
+  text-decoration: none;
+  color: #149494;
+  transition: all 0.2s ease-in-out;
+}
+
+  a:hover {
+    color: #2486c6;
+  }
+
+.button, .special a {
+  background-color: #149494;
+  color: #fff;
+  padding: 12.5px 15px;
+  transition: all 0.2s ease-in-out;
+}
+  
+  .button:hover, .button:focus,
+  .special:hover a, .special:focus a {
+    background-color: #2486c6;
+    color: #fff;
+  }
+
+ul, ol {
+  margin-left: 2em;
+}
+
+blockquote {
+  border-left: 4px solid #149494;
+  padding: 1em 2em;
+  margin: 1em;
+  background-color: #fff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  padding: 0.5em 0;
+
+}
+
+/**
+ * HEADER styles
+ */
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 4em;
+  padding: 5px 25px;
+  background-color: #fff;
+  box-shadow: 0 0 10px 2px rgba(0,0,0,0.20);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 6;
+}
+
+  .brand {
+    display: block;
+    height: 100%;
+  }
+
+  .brand .logo {
+    display: inline-block;
+    height: 100%;
+    width: auto;
+  }
+
+    .brand .logo img {
+      height: 100%;
+    }
+
+  nav ul {
+    list-style-type: none;
+  }
+
+  nav ul li {
+    display: inline-block;
+  }
+
+  nav ul li a {
+    text-decoration: none;
+    padding: 10px 20px;
+    color: #149494;
+    font-size: 0.85em;
+    transition: all 0.4s ease-in-out;
+  }
+
+    nav ul li a:hover, nav ul li a:focus {
+      color: #2486c6;
+    }
+
+  .show-menu {
+    padding: 0.35em;
+    font-size: 1.5em;
+    text-decoration: none;
+    color: #066C91;
+    position: absolute;
+    cursor: pointer;
+    right: 0;
+    top: 0;
+    display: none;
+  }
+
+  header input[type="checkbox"] {
+    display: none;
+  }
+
+  header input[type="checkbox"]:checked ~ nav {
+    height: auto;
+    transition: 200ms;
+  }
+
+    header input[type="checkbox"]:checked ~ nav ul {
+      display: block;
+    }
+
+/**
+ * FOOTER styles
+ */
+footer {
+  width: 100%;
+  padding: 15px 25px;
+  line-height: 1em;
+  background-color: #fff;
+  box-shadow: 0 0 10px 2px rgba(0,0,0,0.20);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+  footer > * {
+    width: 40%;
+  }
+
+    footer #external-links {
+      list-style-type: none;
+      margin: 1em;
+    }
+
+    footer > .credits {
+      text-align: right;
+    }
+
+    footer > .credits img {
+      width: 70%;
+      margin: 10px auto;
+    }
+
+    footer .createdby {
+      font-size: 0.9em;
+    }
+
+/**
+ * ABOVE FOLD styles
+ */
+
+.above-fold {
+  width: 100vw;
+  min-height: 100vh;
+  height: auto;
+  padding: 2em 4em;
+  background-color: #fff;
+  background-image: url('img/accent.svg');
+  background-position: left center;
+  background-size: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+  #brand-svg {
+    height: 79vh;
+    align-self: center;
+    flex: 0 1 auto;
+  }
+
+  .above-fold .info-text {
+    width: 50%;
+    flex: 1 0 auto;
+  }
+
+  .above-fold .title {
+    font-size: 2.75em;
+    color: #1a1a1a;
+  }
+
+  .above-fold .description {
+    margin: 5% auto;
+    text-align: center;
+    font-size: 1.15em;
+    width: 60%;
+  }
+
+    #winners-link {
+      font-weight: bold;
+    }
+
+  .above-fold .details {
+    margin: 5% auto;
+    text-align: center;
+    font-size: 1.025em;
+  }
+
+    .above-fold .details > * {
+      display: inline-block;
+      margin: 10px;
+    }
+
+    .above-fold .details > * > .icon,
+    .above-fold .details > * > .info {
+      display: inline-block;
+      border: 3px solid #2486c6;
+      padding: 10px;
+      color: #1a1a1a;
+    }
+
+    .above-fold .details > * > .icon {
+      border-top-left-radius: 10px;
+      border-bottom-left-radius: 10px;
+      background-color: #2486c6;
+      color: #fff;
+    }
+
+    .above-fold .details > * > .info {
+      border-top-right-radius: 10px;
+      border-bottom-right-radius: 10px;
+      margin-left: -9px;
+    }
+
+  .above-fold .cta {
+    margin-top: 3em;
+    text-align: center;
+  }
+
+    .cta > * {
+      margin: 0 10px;
+    }
+
+  .above-fold .widget-area h4 {
+    text-align: center;
+  }
+
+    .widget-area #shailan-countdown-2_1 {
+      width: 100%;
+    }
+
+/**
+ * BELOW FOLD styles
+ */
+
+.below-fold {
+  box-shadow: 0 0 10px 5px rgba(0,0,0,0.20);
+}
+
+  .below-fold section {
+    width: 100%;
+    min-height: 25vh;
+    height: auto;
+    line-height: 2em;
+    display: flex;
+  }
+
+    .section-header {
+      display: inline-block;
+      width: 15%;
+      background-color: #149494;
+      color: #fff;
+      padding: 1em;
+      text-align: right;
+    }
+
+      .section-header .description {
+        font-size: 0.9em;
+        padding: 1em;
+        font-style: italic;
+      }
+
+    .section-body {
+      display: flex;
+      width: 85%;
+      padding: 1em;
+      flex-wrap: wrap;
+      justify-content: flex-start;
+    }
+
+      .section-body .item {
+        margin: 1em;
+      }
+
+        .section-body .item img {
+          width: 100%;
+          height: auto;
+        }
+
+      .section-body .gallery {
+        margin: 1em auto;
+        width: 90%;
+      }
+
+    .section-subtitle {
+      font-size: 0.9em;
+      font-style: italic;
+    }
+
+    table, .section-table {
+      margin: 15px auto;
+      border-collapse: collapse;
+      width: 100%;
+    }
+
+      th, .section-table th {
+        background-color: #1a1a1a;
+        color: #fff;
+        padding: 5px;
+        border-color: #1a1a1a;
+      }
+
+      tr, .section-table tr {
+        border-bottom: 1px solid #1a1a1a;
+      }
+
+      td, .section-table td {
+        text-align: center;
+        padding: 10px;
+      }
+
+/**
+ * SECTION styles
+ */
+/* ABOUT CONTEST */
+
+#more-info p {
+  width: 50%;
+  margin: 0.5em;
+}
+
+/* PROGRAM FLOW */
+
+#program-flow .item {
+  width: 45%;
+  margin: 10px;
+}
+
+/* LOCATION */
+#location .section-body {
+  justify-content: flex-start;
+}
+
+  #location .item {
+    min-width: 45%;
+    margin-top: 0;
+  }
+
+    #location-map {
+      width: 100%;
+    }
+
+#accommodations .section-body {
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+  #accommodations .item {
+    margin: 0.5em;
+    line-height: initial;
+    width: 45%;
+    padding: 1em;
+    padding-top: 0;
+    display: block;
+  }
+
+    .hotel .logo {
+      margin: 10px;
+      margin-top: 0;
+      display: inline-block;
+    }
+
+      .hotel .logo img {
+        width: 100%;
+      }
+
+    .hotel .details {
+      width: 70%;
+      display: inline-block;
+      vertical-align: top;
+    }
+
+      .hotel .details .address {
+        font-size: 0.9em;
+        color: #707070;
+        margin-bottom: 0.5em;
+      }
+
+    .hotel .rates .subtitle {
+      font-style: italic;
+      font-size: 0.9em;
+      margin-top: 10px;
+    }
+
+/* SPONSORS */
+#sponsors .gallery {
+  display: block;
+}
+
+  #sponsors .gallery .gallery-item {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+  }
+
+    .gallery-item img {
+      min-width: 50%;
+      max-width: 100%;
+      height: auto;
+    }
+
+    #sponsors .gallery-size-large .gallery-item { width: 50%; width: calc(100%/2); }
+    #sponsors .gallery-size-medium .gallery-item { width: 25%; width: calc(100%/4); margin: 1em; }
+    #sponsors .gallery-size-thumbnail .gallery-item { width: 25%; width: calc(100%/4); margin: 1em; }
+
+/**
+ * SINGLE PAGE styles
+ */
+
+#single {
+  padding-top: 2em;
+}
+
+  #single .page {
+    margin: 1em auto;
+    width: 75%;
+  }
+
+    .page .page-header {
+      text-align: center;
+    }
+
+    .page .page-body {
+      padding: 1em;
+    }
+
+/* MEDIUM~SMALL SCREENS + TABLETS + MOBILE */
+@media screen and (max-width: 1366px) {
+  body {
+    line-height: 1.5em;
+  }
+
+  blockquote {
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  /**
+   * HEADER styles
+   */
+  header {
+    display: block;
+  }
+
+  nav {
+    background-color: #fff;
+    margin-top: 0.25em;
+    position: absolute;
+    width: 30%;
+    font-size: 1.25em;
+    right: 0;
+    z-index: 3;
+    text-align: center;
+    height: 0;
+  }
+
+    nav ul {
+      margin: 0;
+      box-shadow: 0 6px 15px -2px rgba(0,0,0,0.20);
+      display: none;
+    }
+
+    nav ul li {
+      display: block;
+    }
+
+    nav ul li a {
+      display: block;
+      width: 100%;
+    }
+
+  .show-menu {
+    padding: 0.5em;
+    font-size: 2em;
+    display: block;
+  }
+
+  /**
+   * FOOTER styles
+   */
+  footer {
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 0.9em;
+    line-height: 1.25em;
+    display: block;
+    text-align: center;
+  }
+
+    footer > * {
+      display: inline-block;
+      width: 40%;
+    }
+
+      footer #external-links {
+        margin: 0.5em;
+      }
+
+      footer > .credits img {
+        width: 100%;
+      }
+
+  /**
+   * ABOVE FOLD styles
+   */
+
+   #brand-svg {
+     width: 100%;
+   }
+
+    .above-fold .title {
+      line-height: 1em;
+    }
+
+    .above-fold .description,
+    .above-fold .details {
+      margin: 2.5% auto;
+    }
+
+    .above-fold .cta {
+      margin-top: 1em;
+    }
+
+  /**
+   * BELOW FOLD styles
+   */
+
+  .section-header {
+    width: 20%;
+  }
+
+  .section-body {
+    width: 80%;
+  }
+
+  /**
+   * SECTION styles
+   */
+  /* PROGRAM FLOW */
+
+  #program-flow .item {
+    width: 100%;
+    margin: 10px;
+  }
+
+  /* ACCOMMODATIONS */
+  #accommodations .item {
+    width: 100%;
+  }
+
+    .hotel .logo {
+      margin: 10px;
+      margin-top: 0;
+      display: inline-block;
+    }
+
+      .hotel .logo img {
+        width: 100%;
+      }
+
+    .hotel .details {
+      width: 70%;
+      display: inline-block;
+      vertical-align: top;
+    }
+
+      .hotel .details .address {
+        font-size: 0.9em;
+        color: #707070;
+        margin-bottom: 0.5em;
+      }
+
+    .hotel .rates .subtitle {
+      font-style: italic;
+      font-size: 0.9em;
+      margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    display: block;
+  }
+
+  /**
+   * HEADER styles
+   */
+  header {
+    width: 100vw;
+    height: 3em;
+  }
+
+  nav {
+    margin-top: 0.3em;
+    width: 100%;
+    font-size: 1em;
+  }
+
+  .show-menu {
+    padding: 0.35em;
+    font-size: 1.5em;
+  }
+
+  /**
+   * FOOTER styles
+   */
+  footer > * {
+    display: block;
+    width: 100%;
+  }
+
+  /**
+   * ABOVE FOLD styles
+   */
+
+  .above-fold {
+    width: 100vw;
+    height: auto;
+    padding: 5em 1.25em 2em;
+    display: block;
+  }
+
+    #brand-svg {
+      display: none;
+    }
+
+    .above-fold .info-text {
+      width: 100%;
+      text-align: center;
+    }
+
+    .above-fold .title {
+      font-size: 1.75em;
+    }
+
+    .above-fold .description {
+      width: 100%;
+    }
+
+    .above-fold .details {
+      font-size: 1em;
+    }
+
+    .above-fold .cta {
+      margin-top: 1em;
+    }
+
+      .cta > * {
+        display: block;
+        margin: 10px;
+      }
+
+  /**
+   * BELOW FOLD styles
+   */
+  .below-fold section {
+    display: block;
+  }
+
+    .section-header {
+      display: block;
+      width: 100vw;
+      padding: 0;
+      text-align: center;
+    }
+
+      .section-header .description {
+        line-height: 1.05em;
+      }
+
+    .section-body {
+      display: block;
+      width: 100vw;
+      padding: 0.5em;
+    }
+
+      .section-body .gallery {
+        width: 100vw;
+      }
+
+  /**
+   * SECTION styles
+   */
+  /* PROGRAM FLOW */
+  #program-flow .item {
+    width: 90vw;
+  }
+
+  /* LOCATION */
+  #location .item {
+    width: 90vw;
+  }
+
+  /* ACCOMMODATIONS */
+    .hotel .logo {
+      width: 20%;
+      margin: 10px;
+      display: inline-block;
+    }
+
+      .hotel .logo img {
+        width: 100%;
+      }
+
+    .hotel .details {
+      font-size: 0.9em;
+    }
+
+  /* SPONSORS */
+  #sponsors .section-body {
+    padding: 0 0 0.5em;
+  }
+
+    .gallery-item img {
+      width: 75%;
+      height: auto;
+    }
+
+  /**
+   * SINGLE PAGE styles
+   */
+
+  #single {
+    padding-top: 1em;
+  }
+
+    #single .page {
+      margin: 0 auto;
+      width: 100%;
+    }
+
+      .page .page-header {
+        line-height: 2em;
+      }
+}
