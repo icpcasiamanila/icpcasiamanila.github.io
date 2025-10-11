@@ -1,0 +1,59 @@
+.calendar, .dates-selector {
+  padding: 1rem 2.488rem;
+}
+
+.dates-selector {
+  padding: 2.44rem;
+  padding-bottom: 0;
+}
+
+.dates-selector ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.dates-selector li {
+  display: block;
+}
+
+.dates-selector a {
+  display: block;
+  padding: 1em 1.44em;
+  text-decoration: none;
+  color: black;
+  border: solid 1px var(--icpc-yellow);
+}
+
+.dates-selector a:hover,
+.dates-selector a.active {
+  color: white;
+  background-color: var(--icpc-yellow);
+}
+
+.calendar table {
+  display: none;
+}
+
+.calendar table.target {
+  display: block;
+  border-collapse: collapse;
+}
+
+.calendar table.target thead th {
+  border-bottom: solid 2px var(--icpc-yellow);
+}
+
+.calendar table.target th,
+.calendar table.target td {
+  padding: 0.87em;
+}
+
+.calendar table.target td:nth-child(3) {
+  width: 340px;
+}
+
+.calendar table.target tbody tr:nth-child(even) {
+  background-color: var(--yellow-accent-1);
+}
