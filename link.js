@@ -12,7 +12,7 @@ const linkKeys = {
   "schedule.html": "Schedule of Activities",
   "registration.html": "Registration",
   "sizing.html": "Shirt Sizing",
-  "rules.html": "Rules",
+  // "rules.html": "Rules",
   // "accomodations.html": "Accomodations",
   "information.html": "Local Information",
   "about.html": "About"
@@ -25,7 +25,7 @@ const sitemapLinks = {
   "index.html": "Home",
   "registration.html": "How to Register",
   // "accommodations.html": "Accommodations",
-  "rules.html": "Rules",
+  // "rules.html": "Rules",
   "about.html": "About"
 }
 
