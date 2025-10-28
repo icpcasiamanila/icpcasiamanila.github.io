@@ -42,22 +42,21 @@
   width: 100px;
 }
 
-#dost {
-  grid-area: dost;
+#arete {
+  grid-area: arete;
   display: flex;
   flex-direction: columm;
   justify-content: center;
 }
-#acer {
-  grid-area: acer;
+#huawei {
+  grid-area: huawei;
   display: flex;
   justify-content: center;
 }
-#smart {
-  grid-area: smart;
+#jetbrains {
+  grid-area: jetbrains;
 }
-#google { grid-area: google; }
 
-#acer img { height: 50px; width: auto; }
-#smart img { height: 60px; width: auto; }
-#google img { height: 60px; width: auto; }
+#arete img { height: 75px; width: auto; }
+#huawei img { height: 100px; width: auto; }
+#jetbrains img {height: 60px; width: auto; }
