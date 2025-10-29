@@ -11,7 +11,7 @@ function addLinks(linkObject, list) {
 const linkKeys = {
   "schedule.html": "Schedule of Activities",
   "registration.html": "Registration",
-  //"sizing.html": "Shirt Sizing",
+  "sizing.html": "Shirt Sizing",
   // "rules.html": "Rules",
   // "accomodations.html": "Accomodations",
   "information.html": "Local Information",
