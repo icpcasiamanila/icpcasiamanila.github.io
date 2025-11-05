@@ -13,7 +13,7 @@ const linkKeys = {
   "registration.html": "Registration",
   "sizing.html": "Shirt Sizing",
   // "rules.html": "Rules",
-  "accomodations.html": "Accomodations",
+  "accommodations.html": "Accomodations",
   "information.html": "Local Information",
   "about.html": "About"
   // "rules.html" : "Rules",
