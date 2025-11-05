@@ -24,7 +24,7 @@ const linkKeys = {
 const sitemapLinks = {
   "index.html": "Home",
   "registration.html": "How to Register",
-  // "accommodations.html": "Accommodations",
+  "accommodations.html": "Accommodations",
   // "rules.html": "Rules",
   "about.html": "About"
 }
