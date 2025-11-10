@@ -12,11 +12,10 @@ const linkKeys = {
   "schedule.html": "Schedule of Activities",
   "registration.html": "Registration",
   "sizing.html": "Shirt Sizing",
-  // "rules.html": "Rules",
+  "rules.html": "Rules",
   "accommodations.html": "Accomodations",
   "information.html": "Local Information",
   "about.html": "About"
-  // "rules.html" : "Rules",
   // "downloads.html": "Downloads",
   // "./archive/2022/scoreboard" : "Scoreboard"
 }
@@ -25,7 +24,7 @@ const sitemapLinks = {
   "index.html": "Home",
   "registration.html": "How to Register",
   "accommodations.html": "Accommodations",
-  // "rules.html": "Rules",
+  "rules.html": "Rules",
   "about.html": "About"
 }
 
