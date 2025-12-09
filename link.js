@@ -15,7 +15,7 @@ const linkKeys = {
   "rules.html": "Rules",
   "accommodations.html": "Accomodations",
   "information.html": "Local Information",
-  "about.html": "About"
+  "about.html": "About",
   "https://alls.ateneo.edu/domjudge/public": "Scoreboard"
   // "downloads.html": "Downloads",
   // "./archive/2022/scoreboard" : "Scoreboard"
