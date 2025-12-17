@@ -15,9 +15,10 @@ const linkKeys = {
   "rules.html": "Rules",
   "accommodations.html": "Accomodations",
   "information.html": "Local Information",
-  "about.html": "About",
   "rankings.html" : "Final Scoreboard",
   "https://icpc.global/regionals/finder/Manila-2026/standings" : "ICPC Standings"
+  "https://codeforces.com/gym/106262" : "Problem Set and Solution Sketches",
+   "about.html": "About",
   // "https://alls.ateneo.edu/domjudge/public": "Scoreboard"
   // "downloads.html": "Downloads",
   // "./archive/2022/scoreboard" : "Scoreboard"
@@ -44,5 +45,6 @@ const externalList = document.querySelector('#externalLinks')
 addLinks(linkKeys, navList)
 addLinks(sitemapLinks, sitemap)
 addLinks(externalLinks, externalList)
+
 
 
